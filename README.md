@@ -1,5 +1,6 @@
 # tfm
 #===========some commands
+
 # begins a single-line comment, ending at the end of the line.
 // also begins a single-line comment, as an alternative to # .
 /* over multiple lines */
@@ -27,11 +28,13 @@ provider "github" {
 }
 */
 
-
 #terraform plan -var "github_token=$GITHUB_TOKEN"
 #terraform apply -var "github_token=$GITHUB_TOKEN"
+
 terraform plan -var "github_token=ghp_ex"
+
 terraform apply -var "github_token=ghp_ex"
 
 terraform plan -var "github_tkn=ghp_ex"
+
 terraform apply -var "github_tkn=ghp_ex"
