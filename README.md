@@ -29,6 +29,7 @@ provider "github" {
 */
 
 #terraform plan -var "github_token=$GITHUB_TOKEN"
+
 #terraform apply -var "github_token=$GITHUB_TOKEN"
 
 terraform plan -var "github_token=ghp_ex"
